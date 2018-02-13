@@ -14,6 +14,8 @@
 		AC9D76491FCD6BA10007DB62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9D76471FCD6BA10007DB62 /* LaunchScreen.storyboard */; };
 		AC9D76541FCD6BA10007DB62 /* Random2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D76531FCD6BA10007DB62 /* Random2Tests.swift */; };
 		AC9D765F1FCD6BA10007DB62 /* Random2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D765E1FCD6BA10007DB62 /* Random2UITests.swift */; };
+		AC9D766D1FCD6BFA0007DB62 /* RandGen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D766C1FCD6BFA0007DB62 /* RandGen.swift */; };
+		ACE1F0C01FDB27F4007DDBBB /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE1F0BF1FDB27F4007DDBBB /* SettingsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		AC9D765A1FCD6BA10007DB62 /* Random2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Random2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9D765E1FCD6BA10007DB62 /* Random2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random2UITests.swift; sourceTree = "<group>"; };
 		AC9D76601FCD6BA10007DB62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9D766C1FCD6BFA0007DB62 /* RandGen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandGen.swift; sourceTree = "<group>"; };
+		ACE1F0BF1FDB27F4007DDBBB /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				AC9D763E1FCD6BA10007DB62 /* AppDelegate.swift */,
 				AC9D76401FCD6BA10007DB62 /* ViewController.swift */,
+				AC9D766C1FCD6BFA0007DB62 /* RandGen.swift */,
 				AC9D76421FCD6BA10007DB62 /* Main.storyboard */,
+				ACE1F0BF1FDB27F4007DDBBB /* SettingsController.swift */,
 				AC9D76451FCD6BA10007DB62 /* Assets.xcassets */,
 				AC9D76471FCD6BA10007DB62 /* LaunchScreen.storyboard */,
 				AC9D764A1FCD6BA10007DB62 /* Info.plist */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE1F0C01FDB27F4007DDBBB /* SettingsController.swift in Sources */,
 				AC9D76411FCD6BA10007DB62 /* ViewController.swift in Sources */,
 				AC9D763F1FCD6BA10007DB62 /* AppDelegate.swift in Sources */,
+				AC9D766D1FCD6BFA0007DB62 /* RandGen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
